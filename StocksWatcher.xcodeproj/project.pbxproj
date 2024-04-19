@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A9F126942AE919E500E0F76D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F126932AE919E500E0F76D /* AppDelegate.swift */; };
-		A9F126962AE919E500E0F76D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F126952AE919E500E0F76D /* SceneDelegate.swift */; };
-		A9F126982AE919E500E0F76D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F126972AE919E500E0F76D /* ViewController.swift */; };
-		A9F1269B2AE919E500E0F76D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F126992AE919E500E0F76D /* Main.storyboard */; };
-		A9F1269D2AE919E600E0F76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F1269C2AE919E600E0F76D /* Assets.xcassets */; };
-		A9F126A02AE919E600E0F76D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F1269E2AE919E600E0F76D /* LaunchScreen.storyboard */; };
-		A9F126AB2AE919E700E0F76D /* StocksWatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F126AA2AE919E700E0F76D /* StocksWatcherTests.swift */; };
-		A9F126B52AE919E700E0F76D /* StocksWatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F126B42AE919E700E0F76D /* StocksWatcherUITests.swift */; };
-		A9F126B72AE919E700E0F76D /* StocksWatcherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F126B62AE919E700E0F76D /* StocksWatcherUITestsLaunchTests.swift */; };
+		919DDFCF2BD2D7DF003E6E46 /* SocketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DDFBE2BD2D7DF003E6E46 /* SocketViewModel.swift */; };
+		919DDFD02BD2D7DF003E6E46 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DDFC02BD2D7DF003E6E46 /* SocketManager.swift */; };
+		919DDFD12BD2D7DF003E6E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919DDFC12BD2D7DF003E6E46 /* Assets.xcassets */; };
+		919DDFD22BD2D7DF003E6E46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919DDFC22BD2D7DF003E6E46 /* LaunchScreen.storyboard */; };
+		919DDFD32BD2D7DF003E6E46 /* TickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DDFC52BD2D7DF003E6E46 /* TickerModel.swift */; };
+		919DDFD42BD2D7DF003E6E46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DDFC72BD2D7DF003E6E46 /* ViewController.swift */; };
+		919DDFD52BD2D7DF003E6E46 /* SocketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DDFC82BD2D7DF003E6E46 /* SocketTableViewCell.swift */; };
+		919DDFD62BD2D7DF003E6E46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919DDFC92BD2D7DF003E6E46 /* Main.storyboard */; };
+		919DDFD72BD2D7DF003E6E46 /* SocketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919DDFCB2BD2D7DF003E6E46 /* SocketTableViewCell.xib */; };
+		919DDFD82BD2D7DF003E6E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DDFCC2BD2D7DF003E6E46 /* AppDelegate.swift */; };
+		919DDFDA2BD2D7DF003E6E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919DDFCE2BD2D7DF003E6E46 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		919DDFBE2BD2D7DF003E6E46 /* SocketViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketViewModel.swift; sourceTree = "<group>"; };
+		919DDFC02BD2D7DF003E6E46 /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		919DDFC12BD2D7DF003E6E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		919DDFC32BD2D7DF003E6E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		919DDFC52BD2D7DF003E6E46 /* TickerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickerModel.swift; sourceTree = "<group>"; };
+		919DDFC72BD2D7DF003E6E46 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		919DDFC82BD2D7DF003E6E46 /* SocketTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketTableViewCell.swift; sourceTree = "<group>"; };
+		919DDFCA2BD2D7DF003E6E46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		919DDFCB2BD2D7DF003E6E46 /* SocketTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocketTableViewCell.xib; sourceTree = "<group>"; };
+		919DDFCC2BD2D7DF003E6E46 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		919DDFCD2BD2D7DF003E6E46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		919DDFCE2BD2D7DF003E6E46 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A9F126902AE919E500E0F76D /* StocksWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StocksWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F126932AE919E500E0F76D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A9F126952AE919E500E0F76D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9F126972AE919E500E0F76D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9F1269A2AE919E500E0F76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9F1269C2AE919E600E0F76D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9F1269F2AE919E600E0F76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A9F126A12AE919E600E0F76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9F126A62AE919E600E0F76D /* StocksWatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StocksWatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F126AA2AE919E700E0F76D /* StocksWatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksWatcherTests.swift; sourceTree = "<group>"; };
 		A9F126B02AE919E700E0F76D /* StocksWatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StocksWatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9F126B42AE919E700E0F76D /* StocksWatcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksWatcherUITests.swift; sourceTree = "<group>"; };
-		A9F126B62AE919E700E0F76D /* StocksWatcherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksWatcherUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +80,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		919DDFBC2BD2D7DF003E6E46 /* StocksWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				919DDFCD2BD2D7DF003E6E46 /* Info.plist */,
+				919DDFCC2BD2D7DF003E6E46 /* AppDelegate.swift */,
+				919DDFCE2BD2D7DF003E6E46 /* SceneDelegate.swift */,
+				919DDFC12BD2D7DF003E6E46 /* Assets.xcassets */,
+				919DDFC22BD2D7DF003E6E46 /* LaunchScreen.storyboard */,
+				919DDFC42BD2D7DF003E6E46 /* Model */,
+				919DDFBF2BD2D7DF003E6E46 /* Network */,
+				919DDFC62BD2D7DF003E6E46 /* View */,
+				919DDFBD2BD2D7DF003E6E46 /* ViewModel */,
+			);
+			path = StocksWatcher;
+			sourceTree = "<group>";
+		};
+		919DDFBD2BD2D7DF003E6E46 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				919DDFBE2BD2D7DF003E6E46 /* SocketViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		919DDFBF2BD2D7DF003E6E46 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				919DDFC02BD2D7DF003E6E46 /* SocketManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		919DDFC42BD2D7DF003E6E46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				919DDFC52BD2D7DF003E6E46 /* TickerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		919DDFC62BD2D7DF003E6E46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				919DDFC72BD2D7DF003E6E46 /* ViewController.swift */,
+				919DDFC82BD2D7DF003E6E46 /* SocketTableViewCell.swift */,
+				919DDFC92BD2D7DF003E6E46 /* Main.storyboard */,
+				919DDFCB2BD2D7DF003E6E46 /* SocketTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A9F126872AE919E500E0F76D = {
 			isa = PBXGroup;
 			children = (
-				A9F126922AE919E500E0F76D /* StocksWatcher */,
-				A9F126A92AE919E700E0F76D /* StocksWatcherTests */,
-				A9F126B32AE919E700E0F76D /* StocksWatcherUITests */,
+				919DDFBC2BD2D7DF003E6E46 /* StocksWatcher */,
 				A9F126912AE919E500E0F76D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,37 +147,6 @@
 				A9F126B02AE919E700E0F76D /* StocksWatcherUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A9F126922AE919E500E0F76D /* StocksWatcher */ = {
-			isa = PBXGroup;
-			children = (
-				A9F126932AE919E500E0F76D /* AppDelegate.swift */,
-				A9F126952AE919E500E0F76D /* SceneDelegate.swift */,
-				A9F126972AE919E500E0F76D /* ViewController.swift */,
-				A9F126992AE919E500E0F76D /* Main.storyboard */,
-				A9F1269C2AE919E600E0F76D /* Assets.xcassets */,
-				A9F1269E2AE919E600E0F76D /* LaunchScreen.storyboard */,
-				A9F126A12AE919E600E0F76D /* Info.plist */,
-			);
-			path = StocksWatcher;
-			sourceTree = "<group>";
-		};
-		A9F126A92AE919E700E0F76D /* StocksWatcherTests */ = {
-			isa = PBXGroup;
-			children = (
-				A9F126AA2AE919E700E0F76D /* StocksWatcherTests.swift */,
-			);
-			path = StocksWatcherTests;
-			sourceTree = "<group>";
-		};
-		A9F126B32AE919E700E0F76D /* StocksWatcherUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A9F126B42AE919E700E0F76D /* StocksWatcherUITests.swift */,
-				A9F126B62AE919E700E0F76D /* StocksWatcherUITestsLaunchTests.swift */,
-			);
-			path = StocksWatcherUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +253,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F126A02AE919E600E0F76D /* LaunchScreen.storyboard in Resources */,
-				A9F1269D2AE919E600E0F76D /* Assets.xcassets in Resources */,
-				A9F1269B2AE919E500E0F76D /* Main.storyboard in Resources */,
+				919DDFD72BD2D7DF003E6E46 /* SocketTableViewCell.xib in Resources */,
+				919DDFD62BD2D7DF003E6E46 /* Main.storyboard in Resources */,
+				919DDFD12BD2D7DF003E6E46 /* Assets.xcassets in Resources */,
+				919DDFD22BD2D7DF003E6E46 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +281,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F126982AE919E500E0F76D /* ViewController.swift in Sources */,
-				A9F126942AE919E500E0F76D /* AppDelegate.swift in Sources */,
-				A9F126962AE919E500E0F76D /* SceneDelegate.swift in Sources */,
+				919DDFD82BD2D7DF003E6E46 /* AppDelegate.swift in Sources */,
+				919DDFDA2BD2D7DF003E6E46 /* SceneDelegate.swift in Sources */,
+				919DDFD52BD2D7DF003E6E46 /* SocketTableViewCell.swift in Sources */,
+				919DDFD02BD2D7DF003E6E46 /* SocketManager.swift in Sources */,
+				919DDFD32BD2D7DF003E6E46 /* TickerModel.swift in Sources */,
+				919DDFD42BD2D7DF003E6E46 /* ViewController.swift in Sources */,
+				919DDFCF2BD2D7DF003E6E46 /* SocketViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F126AB2AE919E700E0F76D /* StocksWatcherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F126B72AE919E700E0F76D /* StocksWatcherUITestsLaunchTests.swift in Sources */,
-				A9F126B52AE919E700E0F76D /* StocksWatcherUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,20 +321,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A9F126992AE919E500E0F76D /* Main.storyboard */ = {
+		919DDFC22BD2D7DF003E6E46 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A9F1269A2AE919E500E0F76D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A9F1269E2AE919E600E0F76D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9F1269F2AE919E600E0F76D /* Base */,
+				919DDFC32BD2D7DF003E6E46 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		919DDFC92BD2D7DF003E6E46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				919DDFCA2BD2D7DF003E6E46 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
